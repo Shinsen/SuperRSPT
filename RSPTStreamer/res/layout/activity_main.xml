@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="320dp"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/ibPlay"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_action_play"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="8dp"
+        android:text="No Status"
+        android:textSize="16sp" />
+    
+    <ImageButton
+        android:id="@+id/ibQuit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_action_cancel"
+        android:background="?android:attr/selectableItemBackground" />
+
+</LinearLayout>
